@@ -4,18 +4,18 @@ import cloudscraper
 from bs4 import BeautifulSoup 
 
 
-url = "https://urlsopen.com/ZuKH"  #@param {type:"string"}
+url = "https://urlsopen.net/ZuKH"  #@param {type:"string"}
 
 
 # leech with credits broo
 # ---------------------------------------------------------------------------------------------------------------------
 
-def shourturl(url):
+def shorturl(url):
     
     client = cloudscraper.create_scraper(allow_brotli=False)
     
     
-    DOMAIN = "https://short.url2go.in/RJOVAq30CU7lINo9AwG4oT3eISn7"
+    DOMAIN = "https://blogpost.viewboonposts.com"
 
     url = url[:-1] if url[-1] == '/' else url
 
@@ -44,4 +44,4 @@ def shourturl(url):
     except: return "Something went wrong :("
     
 # ---------------------------------------------------------------------------------------------------------------------
-print(shourturl(url))
+print(shorturl(url))
