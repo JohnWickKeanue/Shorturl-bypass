@@ -15,7 +15,7 @@ def shorturl(url):
     client = cloudscraper.create_scraper(allow_brotli=False)
     
     
-    DOMAIN = "https://blogpost.viewboonposts.com"
+    DOMAIN = "https://blogpost.viewboonposts.com/go"
 
     url = url[:-1] if url[-1] == '/' else url
 
