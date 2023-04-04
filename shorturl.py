@@ -22,7 +22,7 @@ def shourturl(url):
     
     final_url = f"{DOMAIN}/{code}"
     
-    ref = "https://blog.textpage.xyz/?safelink_redirect=eyJzZWNvbmRfc2FmZWxpbmtfdXJsIjoiIiwic2FmZWxpbmsiOiJodHRwczpcL1wvYmxvZy52aWV3Ym9vbnBvc3RzLmNvbVwvc2FmZS5waHA/bGluaz1cL3Nzc3Nzc2FnYXNkZ2VhcmRnZ2FlZ2FxZVwvZFNqUCJ9"
+    ref = "https://blog.textpage.xyz/"
     
     h = {"referer": ref}
   
