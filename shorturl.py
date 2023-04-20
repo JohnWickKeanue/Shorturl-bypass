@@ -14,7 +14,7 @@ def shourturl(url):
     client = cloudscraper.create_scraper(allow_brotli=False)
     
     
-    DOMAIN = "https://blogpost.viewboonposts.com/ssssssagasdgeardggaegaqe"
+    DOMAIN = "https://blogpost.viewboonposts.com/e893f1f665f5e75f2d1ae009e0063ed66f89"
 
     url = url[:-1] if url[-1] == '/' else url
 
